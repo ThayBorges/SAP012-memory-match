@@ -1,0 +1,36 @@
+{
+  "name": "letras",
+  "items": [
+    {
+      "id": "card",
+      "image": "https://www.canva.com/design/DAF9hu-pTKY/fu3J4V2Sekxn-hWdxFWsFw/view?utm_content=DAF9hu-pTKY&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+      "bgColor": "#339933"
+    },
+    {
+      "id": "letraA",
+      "image": "https://www.canva.com/design/DAF9uudr4Ak/DIC_LY9PMzY9tnZVEZwfUA/view?utm_content=DAF9uudr4Ak&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+      "bgColor": "#339933"
+    },
+    {
+      "id": "letraE",
+      "image": "https://www.canva.com/design/DAF9upzOPtA/-PWtnOtYQQOgqs20ztCrGw/view?utm_content=DAF9upzOPtA&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+      "bgColor": "#339933"
+    },
+    {
+      "id": "letraI",
+      "image": "https://www.canva.com/design/DAF9ukSKTRI/nsXhNzWZGQUDflK8ZpbIMA/view?utm_content=DAF9ukSKTRI&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+      "bgColor": "#F05032"
+    },
+    {
+      "id": "letraO",
+      "image": "https://www.canva.com/design/DAF9uu3wwVM/YvSvsk3A0M8CIeRaCQqxPw/view?utm_content=DAF9uu3wwVM&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+      "bgColor": "#F05032"
+    },
+    {
+      "id": "letraU",
+      "image": "https://www.canva.com/design/DAF9uicgBS4/UVsKUZ7jQHk1hB6-8BkfKQ/view?utm_content=DAF9uicgBS4&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+      "bgColor": "#F05032"
+    }
+    
+  ]
+}
