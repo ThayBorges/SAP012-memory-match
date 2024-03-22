@@ -4,6 +4,8 @@
 
 # Memory Match Kids
 
+<a href='https://thaysa-memory-match-kids.netlify.app'><button>Clique aqui para jogar</button></a>
+
 ## Definição do Produto
 
 O **Memory Match Kids** é um jogo da memória voltado para crianças em idade de alfabetização, com foco nas vogais. O jogo visa auxiliar no aprendizado das vogais de forma lúdica e interativa, estimulando a memória e o interesse das crianças pela linguagem.
