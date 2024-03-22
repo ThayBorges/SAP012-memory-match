@@ -36,10 +36,11 @@ header {
   width: 100%;
   max-width: 800px;
   padding: 30px;
-  margin: 20px 0 15px;
+  margin: 40px 0 15px;
   border-radius: 5px;
   font-size: 2.7em;
 }
+
 /* ESTILIZAÇÃO DOS CARDS */
 
 main {
@@ -50,12 +51,14 @@ main {
   width: 100%;
   margin: 0px auto;
 }
+
 .boxEndGame {
   background-color: red;
 }
+
 .card {
   aspect-ratio: 3/4;
-  width: 150px;
+  width: 220px;
   background-color: #f53098;
   border-radius: 5px;
   position: relative;
@@ -98,26 +101,34 @@ footer {
 
 @media (min-width: 700px) {
 
-body {
-  background: url("./assets/BGgamedesktop.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  margin: 0;
-  padding: 0;
-  box-sizing: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  body {
+    background: url("./assets/BGgamedesktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-main {
-  padding: 20px 20px 50px;
-  grid-template-columns: repeat(5, 2fr);
-  display: grid;
-  gap: 20px;
-  width: 100%;
-  margin: 0px auto;
-}
+  .card {
+    aspect-ratio: 3/4;
+    width: 130px;
+    background-color: #f53098;
+    border-radius: 5px;
+    position: relative;
+    transition: all 400ms ease;
+    transform-style: preserve-3d;
+  }
+
+  main {
+    grid-template-columns: repeat(5, 2fr);
+  
+  }
+
+  
 }
