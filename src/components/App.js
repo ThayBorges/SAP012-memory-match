@@ -1,15 +1,14 @@
 import letras from "../data/letras/letras.js";
-const spanPlayer = document.querySelector('.player');
-const timer = document.querySelector('.timer');
+const spanPlayer = document.querySelector(".player");
+const timer = document.querySelector(".timer");
 
 export const endGame = () => {
   const disabledCard = document.querySelectorAll(".disabled-card");
   if (disabledCard.length === 10) {
-    console.log("Chegeui aqui perto do alerta")
+    console.log("Chegeui aqui perto do alerta");
     alert("Parabéns!!! Você conseguiu!!!");
   }
 };
-
 
 const App = () => {
   const createElement = (tag, className) => {
@@ -23,10 +22,9 @@ const App = () => {
   let firstCard = "";
   let secondCard = "";
 
- 
   const checkCards = () => {
     console.log(firstCard, secondCard);
-    
+
     const firstVogal = firstCard.getAttribute("data-vogais");
     const secondVogal = secondCard.getAttribute("data-vogais");
 
@@ -64,8 +62,6 @@ const App = () => {
       secondCard = target.parentNode;
       checkCards();
     }
-
-    
   };
   const exibeCards = (vogais) => {
     const card = createElement("div", "card");
@@ -88,7 +84,7 @@ const App = () => {
 
   //PARA EMBARALHAR AS CARTAS
   const shuffledArray = dupliCard.sort(() => Math.random() - 0.5); //ESSA FUNÇÃO RETORNA UM NÚMERO ALEATÓRIO ENTRE 0 E 1 DE FORMA ALEATÓRIA
-  const banana = (document.createElement ("main"))
+  const banana = document.createElement("main");
   shuffledArray.forEach((vogais) => {
     const card = exibeCards(vogais.image);
     banana.appendChild(card);
@@ -96,19 +92,16 @@ const App = () => {
 
   const startTimer = () => {
     setInterval(() => {
-
       const currentTimer = +timer.innerHTML;
       timer.innerHTML = currentTimer + 1;
     }, 1000);
-
-  }
+  };
 
   window.onload = () => {
-    spanPlayer.innerHTML = localStorage.getItem('player');
+    spanPlayer.innerHTML = localStorage.getItem("player");
     //startTimer();
-  }
+  };
   return banana;
 };
 
 export default App;
-
